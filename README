@@ -36,3 +36,11 @@ lpaldb -- LP Album DB -*-text-*-
 この開発は、2009-10-03 に行なわれた HTML5 の Google Hackathon で作られました。
 Google Hackathon の主催者一同及び参加者に厚く御礼申し上げます。
 
+本アプリケーションの開発は Github で、引き続き行ないます:
+
+  http://github.com/ataka/lpaldb
+
+また、Hackathon で開発した分のコードは、Google Code でも見ることができます:
+
+  http://code.google.com/p/hackathon-jp/
+
