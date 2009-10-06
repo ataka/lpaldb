@@ -1,0 +1,15 @@
+h1 { text-align: center; }
+
+h2 { 
+     border-top: solid 1pt;
+}
+
+#p_album_title { font-size: large; }
+#p_album_artist, #p_label, #p_release { 
+  font-size: small; 
+  text-align: right;                                  
+}
+#add { 
+  font-size: large;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>LP Album DB</title>
+  <link href="css/lpaldb.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="js/lpaldb.js"></script>
+</head>
+<body onload="list_albums();">
+<h1>LP Album DB</h1>
+
+<div id="nav">
+  <p><a href="html/add.html">Add Album</a></p>
+</div>
+
+<h2 id="album-list">Album List</h2>
+<p><a href="javascript:search_album();">Search:</a> <input id="search"></p>
+
+<div id="list"></div>
+
+<h2>Meintenance</h2>
+<a href="javascript:drop_tables();">Drop tables</a>
+
+</body>
+</html>

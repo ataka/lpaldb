@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>LP Album DB - Add Album</title>
+  <link href="../css/lpaldb.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="../js/lpaldb.js"></script>
+  <script type="text/javascript" src="../js/add.js"></script>
+</head>
+<body onload="init_add();">
+<h1>Album Information</h1>
+
+<p><a href="../index.html">&lt;&lt; back</a>
+
+<p id="p_album_title">Album Title: <input id="album_title"/></p>
+<p id="p_album_artist">Album Artist: <input id="album_artist"/></p>
+<p id="p_label">Label: <input id="label"/></p>
+<p id="p_release">Release: <input id="release"/></p>
+
+<div id="albums">
+</div>
+
+<p><a id="add_sides" href="javascript:add_sides();">Add Sides</a>
+
+<p><a id="add" href="javascript:add_album()">Add Album Information</a></p>
